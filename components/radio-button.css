@@ -1,6 +1,7 @@
 
 .radio {
     display: block;
+    margin-left: 10px;
   }
   
   .radio-input:checked {

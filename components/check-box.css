@@ -1,5 +1,6 @@
 .check {
     display: block;
+    margin-left: 10px;
   }
 
   .check-input:checked {

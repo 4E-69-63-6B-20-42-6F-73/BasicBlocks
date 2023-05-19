@@ -7,6 +7,7 @@ body {
   }
 .check {
     display: block;
+    margin-left: 10px;
   }
 
   .check-input:checked {
@@ -187,6 +188,7 @@ pre {
 
 .radio {
     display: block;
+    margin-left: 10px;
   }
   
   .radio-input:checked {
