@@ -1,0 +1,20 @@
+
+.radio {
+    display: block;
+  }
+  
+  .radio-input:checked {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .radio-input:checked::before {
+    background-color: #fff;
+    border: 1px solid #007bff;
+  }
+  
+  .radio-input:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
