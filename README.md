@@ -28,14 +28,16 @@ To use BasicBlocks in your project, follow these steps:
    ```html
    <head>
      <link rel="stylesheet" href="path/to/app.css">
-   </head>```
+   </head>
+   ```
 3. Place the app.js file at the end of the <body> section of your HTML file:
    ```html
     <body>
       <!-- Your HTML content -->
 
       <script src="path/to/app.js"></script>
-    </body>```
+    </body>
+    ```
 4. You are now ready to use BasicBlocks components in your HTML markup.
   
 ### Build
@@ -51,6 +53,27 @@ Please start by installing node (or skip this completely and create your own sim
   - Secondary button
   - Text input
   - Code snippet
-  
-  Please visit TODO for a demonstration 
-  
+   
+For more information visit the [BasicBlocks documentation](https://4e-69-63-6b-20-42-6f-73.github.io/BasicBlocks/).
+   
+⚠️ **Disclaimer: BasicBlocks is a Concept**
+
+Please note that BasicBlocks is currently in a conceptual stage and not a finished product. While the provided components and ideas aim to simplify HTML website development, it may lack certain features, robustness, and complete documentation.
+
+The concept of BasicBlocks is intended to showcase a simplified approach to building websites without excessive utility classes. However, it may not be suitable for production use or all project requirements.
+
+We appreciate your interest in BasicBlocks and encourage you to explore and experiment with the concept. Feel free to provide feedback and suggestions as we continue to refine and evolve the framework.
+
+For more information and updates, visit the [BasicBlocks documentation](https://4e-69-63-6b-20-42-6f-73.github.io/BasicBlocks/).
+
+Thank you for your understanding and support as we develop BasicBlocks further! 🙏🚧💡
+   
+📣 **We Want Your Feedback!**
+
+We value your input and would love to hear your feedback on BasicBlocks. If you have any suggestions, ideas, or encounter any issues while using BasicBlocks, please don't hesitate to reach out. Your feedback is crucial in helping us improve and shape the future development of BasicBlocks.
+
+You can provide feedback or report issues by:
+
+- Opening an issue on the [Issues tab](https://github.com/4E-69-63-6B-20-42-6F-73/BasicBlocks/issues)).
+
+We appreciate your participation and look forward to hearing from you! 🙌🎉🔧
