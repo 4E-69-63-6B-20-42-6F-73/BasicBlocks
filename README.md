@@ -17,3 +17,40 @@ The goal of BasicBlocks is to simplify the process of creating HTML websites by 
 By achieving these goals, BasicBlocks empowers developers to create well-structured, visually appealing, and easily maintainable websites without the need for excessive utility classes.
 
 Keep building with BasicBlocks and enjoy the journey! 🚀💻
+
+### Usage
+
+To use BasicBlocks in your project, follow these steps:
+
+1. Download the `app.js` and `app.css` files.
+2. Place the `app.css` file in the `<head>` section of your HTML file:
+
+   ```html
+   <head>
+     <link rel="stylesheet" href="path/to/app.css">
+   </head>```
+3. Place the app.js file at the end of the <body> section of your HTML file:
+   ```html
+    <body>
+      <!-- Your HTML content -->
+
+      <script src="path/to/app.js"></script>
+    </body>```
+4. You are now ready to use BasicBlocks components in your HTML markup.
+  
+### Build
+BasicBlocks is designed to be used without a framework or other tooling, but to provide a better developer experience there is a buildscript to bundle everything.
+Please start by installing node (or skip this completely and create your own simple bundler)
+ ```node
+  node build
+  ```
+  
+ ### Components:
+ For now we provide only a few basic components:
+  - Primary button
+  - Secondary button
+  - Text input
+  - Code snippet
+  
+  Please visit TODO for a demonstration 
+  
