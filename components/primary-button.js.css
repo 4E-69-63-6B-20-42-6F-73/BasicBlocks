@@ -1,0 +1,122 @@
+.primary-button {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .primary-button.default {
+    background-color: #007bff;
+    color: #ffffff;
+  }
+  
+  .primary-button.default:hover {
+    background-color: #0056b3;
+  }
+  
+  .primary-button.default:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+  .primary-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .primary-button.outline {
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  .primary-button.outline:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .primary-button.outline:focus {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+  .primary-button.success {
+    background-color: #28a745;
+    color: #ffffff;
+  }
+  
+  .primary-button.success:hover {
+    background-color: #218838;
+  }
+  
+  .primary-button.success:focus {
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+  }
+  
+  .primary-button.success.outline {
+    background-color: transparent;
+    color: #28a745;
+    border: 1px solid #28a745;
+  }
+  
+  .primary-button.success.outline:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .primary-button.success.outline:focus {
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+  }
+  
+  .primary-button.warning {
+    background-color: #ffc107;
+    color: #ffffff;
+  }
+  
+  .primary-button.warning:hover {
+    background-color: #ffaa00;
+  }
+  
+  .primary-button.warning:focus {
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5);
+  }
+  
+  .primary-button.warning.outline {
+    background-color: transparent;
+    color: #ffc107;
+    border: 1px solid #ffc107;
+  }
+  
+  .primary-button.warning.outline:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .primary-button.warning.outline:focus {
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5);
+  }
+  
+  .primary-button.danger {
+    background-color: #dc3545;
+    color: #ffffff;
+  }
+  
+  .primary-button.danger:hover {
+    background-color: #c82333;
+  }
+  
+  .primary-button.danger:focus {
+    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5);
+  }
+  
+  .primary-button.danger.outline {
+    background-color: transparent;
+    color: #dc3545;
+    border: 1px solid #dc3545;
+  }
+  
+  .primary-button.danger.outline:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .primary-button.danger.outline:focus {
+    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5);
+  }

@@ -1,0 +1,64 @@
+.secondary-button {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: transparent;
+    color: #6c757d;
+  }
+  
+  .secondary-button.default {
+    color: #007bff;
+  }
+  
+  .secondary-button.default:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .secondary-button.default:focus {
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+  .secondary-button.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .secondary-button.success {
+    color: #28a745;
+  }
+  
+  .secondary-button.success:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .secondary-button.success:focus {
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
+  }
+  
+  .secondary-button.warning {
+    color: #ffc107;
+  }
+  
+  .secondary-button.warning:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .secondary-button.warning:focus {
+    box-shadow: 0 0 0 3px rgba(255, 193, 7, 0.5);
+  }
+  
+  .secondary-button.danger {
+    color: #dc3545;
+  }
+  
+  .secondary-button.danger:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .secondary-button.danger:focus {
+    box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5);
+  }
+  

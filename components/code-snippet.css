@@ -1,0 +1,37 @@
+.code-container {
+    position: relative;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px 0;
+    font-family: 'Courier New', monospace;
+    background-color: #282c34;
+    color: #abb2bf;
+    font-size: 16px;
+    overflow: auto;
+}
+
+.copy-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: none;
+    background-color: #61afef;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.copy-button:hover {
+    background-color: #4b77be;
+}
+
+pre {
+    margin: 0;
+}
