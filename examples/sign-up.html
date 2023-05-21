@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BasicBlocks Sign-Up Form</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, rgba(255, 191, 0, 0.8), rgba(255, 0, 128, 0.8));
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+  </style>
+  <link rel="stylesheet" href="../dist/app.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Sign Up</h1>
+
+    <text-input name="name" label="Name"></text-input>
+
+    <email-input name="email" label="Email"></email-input>
+
+    <password-input name="password" label="Password"></password-input>
+
+    <password-input name="confirm-password" label="Confirm Password"></password-input>
+
+    <div class="button-container">
+      <secondary-button>Cancel</secondary-button>
+      <primary-button>Sign Up</primary-button>
+    </div>
+  </div>
+
+  <script src="../dist/app.js"></script>
+</body>
+
+</html>

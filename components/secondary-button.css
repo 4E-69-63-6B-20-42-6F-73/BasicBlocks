@@ -7,6 +7,7 @@
     transition: background-color 0.3s ease, color 0.3s ease;
     background-color: transparent;
     color: #6c757d;
+    margin: 10px;
   }
   
   .secondary-button.default {
