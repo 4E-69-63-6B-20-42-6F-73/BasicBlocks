@@ -63,10 +63,6 @@ class CustomCheckbox extends BaseComponent {
   customElements.define('check-box', CustomCheckbox);
   
 class CodeSnippet extends BaseComponent {
-    constructor() {
-        super();
-    }
-
     connectedCallback() {
         super.connectedCallback();
         this.querySelector(".copy-button").addEventListener("click", this.copyToClipboard.bind(this));
@@ -79,8 +75,6 @@ class CodeSnippet extends BaseComponent {
     setup() {
         this.code = this.normalizeIndentation(this.textContent);
         this.textContent = "";
-
-        console.log(this.code)
     }
 
     render() {
@@ -196,6 +190,10 @@ class SecondaryButton extends BaseComponent {
 customElements.define('secondary-button', SecondaryButton);
 
 class TextInput extends BaseComponent {
+  setup(){
+    this._type= "text"
+  }
+
   static get observedAttributes() {
     return ['valid', 'invalid', 'label'];
   }
@@ -224,10 +222,31 @@ class TextInput extends BaseComponent {
     this.innerHTML = `
       <div class="text-input-wrapper">
         <label class="label-text">${label}</label>
-        <input class="${classes.join(' ')}" name="${name}" value="${value}" />
+        <input class="${classes.join(' ')}" type="${this._type}" name="${name}" value="${value}" />
       </div>
     `;
   }
 }
 
 customElements.define('text-input', TextInput);
+
+class PasswordInput extends TextInput {
+  setup() {
+    super.setup();
+
+    this._type='password';
+  }
+}
+
+customElements.define('password-input', PasswordInput);
+
+class EmailInput extends TextInput {
+  setup() {
+    super.setup();
+
+    this._type='email';
+  }
+}
+
+customElements.define('email-input', EmailInput);
+

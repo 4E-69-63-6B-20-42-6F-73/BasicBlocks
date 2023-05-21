@@ -1,8 +1,4 @@
 class CodeSnippet extends BaseComponent {
-    constructor() {
-        super();
-    }
-
     connectedCallback() {
         super.connectedCallback();
         this.querySelector(".copy-button").addEventListener("click", this.copyToClipboard.bind(this));
@@ -15,8 +11,6 @@ class CodeSnippet extends BaseComponent {
     setup() {
         this.code = this.normalizeIndentation(this.textContent);
         this.textContent = "";
-
-        console.log(this.code)
     }
 
     render() {

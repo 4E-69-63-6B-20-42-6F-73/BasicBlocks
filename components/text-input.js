@@ -1,4 +1,8 @@
 class TextInput extends BaseComponent {
+  setup(){
+    this._type= "text"
+  }
+
   static get observedAttributes() {
     return ['valid', 'invalid', 'label'];
   }
@@ -27,10 +31,31 @@ class TextInput extends BaseComponent {
     this.innerHTML = `
       <div class="text-input-wrapper">
         <label class="label-text">${label}</label>
-        <input class="${classes.join(' ')}" name="${name}" value="${value}" />
+        <input class="${classes.join(' ')}" type="${this._type}" name="${name}" value="${value}" />
       </div>
     `;
   }
 }
 
 customElements.define('text-input', TextInput);
+
+class PasswordInput extends TextInput {
+  setup() {
+    super.setup();
+
+    this._type='password';
+  }
+}
+
+customElements.define('password-input', PasswordInput);
+
+class EmailInput extends TextInput {
+  setup() {
+    super.setup();
+
+    this._type='email';
+  }
+}
+
+customElements.define('email-input', EmailInput);
+
