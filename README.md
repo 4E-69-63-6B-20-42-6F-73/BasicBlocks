@@ -48,12 +48,6 @@ Please start by installing node (or skip this completely and create your own sim
   ```
   
  ### Components:
- For now we provide only a few basic components:
-  - Primary button
-  - Secondary button
-  - Text input
-  - Code snippet
-   
 For more information visit the [BasicBlocks documentation](https://4e-69-63-6b-20-42-6f-73.github.io/BasicBlocks/).
    
 ⚠️ **Disclaimer: BasicBlocks is a Concept**
